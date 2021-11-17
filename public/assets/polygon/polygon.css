@@ -1,0 +1,102 @@
+.polygon{
+/*    position: absolute;*/
+    width:100%;height:100%;
+}
+
+.bottom_polygon{
+    width:100%;height:50%;
+    background-image:url('https://sv1.picz.in.th/images/2021/10/23/uQul3u.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+/*bottom_polygon::before{
+   content: "ครู"; 
+    background-color:#21490D;
+}*/
+
+.top_polygon{
+    width:100%;height:50%;
+    background-image:url('https://sv1.picz.in.th/images/2021/10/23/uQu2ne.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+/*     top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+
+
+
+#polygon1::after{
+             content: "ครู";
+             
+             position:absolute;
+             background-color:#008000;
+              -webkit-clip-path:polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+ clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+             font-size:30pt;
+             top:40%;
+             left:41%;
+             z-index:1;
+             width:18%;
+             height:19%;
+             color:white;     
+             padding-left:0.6em;
+             padding-top:0.5em;
+            }
+
+/*   .bottomleft_1::before{
+             content: "ครู";
+             position: absolute;
+            background-color: bisque;
+            
+             font-size:25pt;
+           
+             color: black;     
+            }
+            
+            
+    .bottomright_1::after{
+             content: "ครู";
+             position: absolute;
+            background-color: bisque;
+            
+             font-size:25pt;
+           
+             color: black;     
+            }   
+            
+            
+     .topright_cover_1::after{
+            content: "ครู";          
+            background-color: bisque;            
+             font-size:25pt;
+             color: black;     
+            } 
+            
+       .topleft_1::after{
+             content: "ครู";
+      
+            background-color: bisque;
+            
+             font-size:25pt;
+           
+             color: black;     
+            }         
+            
+            
+        .top_1::after{
+             content: "ครู";
+             position:relative;
+            background-color: bisque;
+            margin:0 auto;
+             font-size:25pt;
+           
+             color: black;     
+            }               */
