@@ -1,0 +1,90 @@
+.topic{
+
+        font-size: 1vw;         
+        width:300px;
+        height:40px;
+        background-size:cover;
+        background-position:left; 
+        background-repeat:no-repeat;
+        color: white;
+        text-align:left;
+        padding:0.5vw; 
+        margin-left:5px;
+        }
+        
+        
+        .panel_cover{
+            font-size:14pt;
+        }
+        
+        
+         .col_left{
+            height:100%;width:50%;float: left;padding-top:0.5vw;  
+
+        }
+
+        .col_right{
+            height:100%;width:50%;float: left;padding-top:1vw;  
+        }
+        
+        
+        
+
+        .text_blue{
+            color: #47B6B8;
+        
+            margin-right:10px;
+        }
+
+      
+        p{
+          
+            margin:0;
+        }
+
+        .text_orange{
+            color: #FAA846;
+        }
+
+        .image{
+            border:0; 
+            margin:0 auto;
+            width:15vw;
+            height:15vw;
+            object-fit:contain;
+        }
+
+        .box{
+            width: 100%;    
+            text-align:left;
+            padding:0.5em;
+        }
+
+        .detail{
+
+            padding-left: 15px;
+
+        }
+
+        .tbl_tem{
+            width:100%;
+            text-align:left;
+        }
+
+
+        .tbl_tem td{
+            text-align:left;
+            vertical-align:top;
+            padding:0.5;
+
+        }
+
+        .tbl_tem th{
+        
+             text-align:left;
+            vertical-align:top;
+            padding:0;
+        }
+        
+     
+
